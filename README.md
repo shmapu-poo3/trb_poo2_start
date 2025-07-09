@@ -16,7 +16,7 @@ class Pessoa:
 É o método especial que é executado automaticamente quando um objeto é criado, também usado para declarar os atributos da classe (papel dele é obrigar algém a informar algo...).
 ```python
 class Pessoa:
-    def __init__(self, nome: str, idade: int=None):  # construtor(parametros nao variavel)
+    def __init__(self, nome: str, idade: int=None):  # construtor(parametros nao variavel e o self representa um atributo da instancia (this))
         self.nome = nome      # inicializa atributo nome
         self.idade = idade    # inicializa atributo idade
         print("Pessoa criada!")  # executa automaticamente
