@@ -215,3 +215,6 @@ pessoa.caminhar()   # ← caminhar() é chamado AQUI
 Os **4 pilares** (encapsulamento, herança, polimorfismo, abstração) organizam e estruturam o código de forma mais eficiente e reutilizável.
 
 **Ponto-chave**: `__init__` é um método, mas é o método **construtor** - executa automaticamente na criação do objeto para inicializar seus atributos. Os outros métodos você chama quando quiser executar ações específicas.
+ 
+**Convencoes:** Nome de Classe sempre iniciar com letra Maiuscula - Nome de Metodo: sempre usar verbo (podem ser nomes compostos (com padrao camelCase)
+
